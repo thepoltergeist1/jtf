@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Holidays</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav class="site-nav">
+  <a class="brand" href="index.html">The Fahnbulleh Family</a>
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="main.html">family</a>
+    <a href="holidays.html" aria-current="page">Holidays</a>
+  </div>
+</nav>
+
+<main class="page">
+  <div class="page-header">
+    <h1>Family trips</h1>
+    <p>A few memories from the past year, click any photo to see it bigger.</p>
+  </div>
+
+  <div class="memory-list">
+
+    <article class="memory-row reveal">
+      <button class="memory-photo" data-caption="At the beach last summer">
+        <img src="beach.jpeg" alt="At the beach last summer" height="559" width="1024" />
+      </button>
+      <div class="memory-copy">
+        <p class="memory-role">Summer</p>
+        <h2>The Beach</h2>
+        <p>Remembering our trip to the beach last summer always brings a smile to my face. Walking along the shore with my family, feeling the cool ocean water over our feet, and just laughing together made it one of the best breaks we've ever had. Looking back at those pictures brings back all the warm weather and great memories.</p>
+      </div>
+    </article>
+
+    <article class="memory-row reveal">
+      <button class="memory-photo" data-caption="At Disneyland">
+        <img src="Unknown-7.jpeg" alt="At Disneyland" height="559" width="1024" />
+      </button>
+      <div class="memory-copy">
+        <p class="memory-role">Fun</p>
+        <h2>Disneyland</h2>
+        <p>Honestly, our trip to Disneyland was easily one of my favorite family vacations ever. It had been so long since we all just let loose like that, and being there with my parents and my brother — even if we had to playfully tease each other while waiting in those massive lines — was just so much fun. Getting to wear my Minnie ears, eating our weight in churros, and catching the view of the castle together felt like being little kids again. Seeing everyone, especially my brother, actually getting into the spirit of it and just laughing all day made the crowded park totally worth it. It's definitely a trip I'm going to be nostalgic about for a really long time.</p>
+      </div>
+    </article>
+
+    <article class="memory-row reveal">
+      <button class="memory-photo" data-caption="Celebrating at the cookout">
+        <img src="cookout.jpeg" alt="Celebrating at the cookout" height="559" width="1024" />
+      </button>
+      <div class="memory-copy">
+        <p class="memory-role">Cookout</p>
+        <h2>celebration</h2>
+        <p>Man, I still can't believe we're officially calling my brother "Doctor" now! Celebrating him getting his PhD at the cookout was something really special. Watching him grind through all those years of late-night studying, research, and endless stress — just to see him finally on the other side of it, with the whole family gathered in the backyard, was incredible. I couldn't be prouder of him. He really earned every bit of this, and having everyone together, laughing, eating good food, and raising a plate in his honor was the perfect way to mark the milestone. He's definitely set the bar high for the kids! Though, next time he tries to skip out on helping with the grill, I'm definitely going to remind him that having a doctorate doesn't excuse him from flipping a few burgers.</p>
+      </div>
+    </article>
+
+  </div>
+</main>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+  <figure>
+    <img id="lightbox-img" src="" alt="" />
+    <figcaption id="lightbox-caption"></figcaption>
+  </figure>
+</div>
+
+<footer class="site-footer">
+  Back to <a href="main.html">the family</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
